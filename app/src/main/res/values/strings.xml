@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Hello Android Studio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Este es mi primer fragment en Android!!!!</string>
 </resources>
