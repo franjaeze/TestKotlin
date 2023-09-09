@@ -1,7 +1,10 @@
 package com.example.helloandroidstudio
 
-import androidx.appcompat.app.AppCompatActivity
+import com.example.helloandroidstudio.R
+
 import android.os.Bundle
+import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.commit
 import androidx.fragment.app.replace
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -39,6 +42,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 return@OnNavigationItemSelectedListener true
             }
+
         }
         false
     }
@@ -55,10 +59,6 @@ class MainActivity : AppCompatActivity() {
             addToBackStack("replacemnet");
 
         }
-
-
-
-
 
 
     }
